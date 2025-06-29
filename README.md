@@ -2,7 +2,7 @@
 
 A simple and interactive web application built using **Streamlit** to predict house prices based on 13 housing features. This project utilizes a trained machine learning model on the Boston Housing Dataset to predict modern real estate prices.
 
-   ## 🚀 Features
+## 🚀 Features
 
 - 🔢 Accepts 13 input features from the user
 - 🧠 Uses a pre-trained model to make predictions
@@ -11,7 +11,7 @@ A simple and interactive web application built using **Streamlit** to predict ho
 - 🎈 Balloons animation on successful prediction
 
 
-   ## 📊 Input Features
+## 📊 Input Features
    Attribute Information:
 
     1. CRIM      per capita crime rate by town
@@ -32,7 +32,7 @@ A simple and interactive web application built using **Streamlit** to predict ho
     13. LSTAT    % lower status of the population
     14. MEDV     Median value of owner-occupied homes in $1000's
  
-  ## 🧠 Model Used
+## 🧠 Model Used
 
 - The model is trained on the **Boston Housing Dataset**
 - Saved as `Dragon.joblib` using `joblib`
@@ -52,12 +52,21 @@ A simple and interactive web application built using **Streamlit** to predict ho
 > 🔗 [Click here to access the app](https://dragon-real-estate-price-predictor-8fjabvxuqj3qpjdqtaqxk9.streamlit.app/)  
 
 
-## 🧾 How to Run Locally
+## 🚀 How to Run Locally
 
 ```bash
-git clone https://github.com/your-username/Dragon-real-estate-price-predictor.git
-cd Dragon-real-estate-price-predictor
-pip install -r requirements.txt
+# Clone the repository
+git clone https://github.com/your-username/dragon-real-estate-price-predictor.git
+cd dragon-real-estate-price-predictor
+
+# Install dependencies
+pip install streamlit pandas numpy scikit-learn joblib
+
+# Run the app
 streamlit run app.py
+
+
+📃 License
+This project is licensed under the MIT License.
 
     
