@@ -38,6 +38,9 @@ A simple and interactive web application built using **Streamlit** to predict ho
 - Saved as `Dragon.joblib` using `joblib`
 
 
+📃 License
+This project is licensed under the MIT License.
+
 
 ## 🛠️ Tech Stack
 
@@ -53,7 +56,6 @@ A simple and interactive web application built using **Streamlit** to predict ho
 
 
 ## 🚀 How to Run Locally
-
 ```bash
 # Clone the repository
 git clone https://github.com/your-username/dragon-real-estate-price-predictor.git
@@ -66,7 +68,8 @@ pip install streamlit pandas numpy scikit-learn joblib
 streamlit run app.py
 
 
-📃 License
-This project is licensed under the MIT License.
+
+
+
 
     
